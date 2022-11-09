@@ -1,0 +1,381 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Oswald:wght@200;300;400;500;600;700&display=swap");
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(
+    180deg,
+    rgba(58, 165, 164, 1) 0%,
+    rgba(122, 229, 228, 1) 100%
+  );
+}
+.container {
+  width: 90%;
+  max-width: 1200px;
+  background-color: white;
+  margin: 0 auto;
+}
+.wrapper {
+  width: 90%;
+  margin: 0 auto;
+}
+img {
+  max-width: 100%;
+  height: 210px;
+  background-size: cover;
+}
+.header {
+  position: relative;
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+  padding: 2rem 0;
+}
+.header::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 180px;
+  bottom: 0;
+  left: 0;
+  background: url("profile__pic-removebg.png") no-repeat top / cover;
+  background-position: 26px -19px;
+  opacity: 0.15;
+}
+.header h1 {
+  position: relative;
+  font-family: "Oswald";
+  font-weight: 500;
+  font-size: 50px;
+  margin: 50px 0 0 0;
+}
+.header p {
+  position: relative;
+  margin: 8px 0 10px 0;
+}
+.about__me {
+  padding: 3.5rem 0;
+  overflow: hidden;
+}
+.about__me h2 {
+  font-family: "Oswald";
+  font-weight: 400;
+  font-size: 26px;
+  margin: 0 0 28px 0;
+}
+.about__me img {
+  float: left;
+  margin-right: 1.75rem;
+  width: calc(100% / 3.33);
+  height: 260px;
+}
+.about__me p {
+  font-family: "lato";
+  color: #565656;
+}
+.projects {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  padding: 4rem 0;
+}
+.projects a {
+  text-decoration: none;
+  color: black;
+}
+.projects div + div {
+  margin-left: 2.5rem;
+}
+.projects div a > p:nth-of-type(1) {
+  font-family: "lato";
+  font-weight: 600;
+  margin: 5px 0 12px 0;
+}
+.projects div a > p:nth-of-type(2) {
+  font-family: "lato";
+  font-weight: 300;
+  color: #565656;
+  margin: 0;
+}
+.projects__title {
+  font-family: "Oswald";
+  font-weight: 400;
+  font-size: 26px;
+  margin: 0 0 30px 0;
+}
+.project__1 {
+  display: inline-block;
+  width: calc(100% / 3.33);
+}
+.project__1 img {
+  width: 100%;
+}
+.project__2 {
+  display: inline-block;
+  width: calc(100% / 3.33);
+}
+.project__2 img {
+  width: 100%;
+}
+.project__3 {
+  display: inline-block;
+  width: calc(100% / 3.33);
+}
+.project__3 img {
+  width: 100%;
+}
+.work {
+  padding: 3rem 0;
+  margin-bottom: 2rem;
+}
+.work h2 {
+  font-family: "Oswald";
+  font-weight: 400;
+  font-size: 28px;
+}
+.work__1 p:nth-child(1) {
+  margin: 0;
+  font-family: "lato";
+  font-weight: 300;
+}
+.work__1 p:nth-child(2) {
+  margin: 0;
+  font-family: "lato";
+  font-size: 18px;
+  font-weight: 600;
+}
+.work__1 p:nth-child(3) {
+  margin: 24px 0 35px 0;
+  font-family: "lato";
+  color: #565656;
+}
+.work__2 p:nth-child(1) {
+  margin: 0;
+  font-family: "lato";
+  font-weight: 300;
+}
+.work__2 p:nth-child(2) {
+  margin: 0;
+  font-family: "lato";
+  font-size: 18px;
+  font-weight: 600;
+}
+.work__2 p:nth-child(3) {
+  margin: 24px 0 35px 0;
+  font-family: "lato";
+  color: #565656;
+}
+.work__3 p:nth-child(1) {
+  margin: 0;
+  font-family: "lato";
+  font-weight: 300;
+}
+.work__3 p:nth-child(2) {
+  margin: 0;
+  font-family: "lato";
+  font-size: 18px;
+  font-weight: 600;
+}
+.work__3 p:nth-child(3) {
+  margin: 24px 0 35px 0;
+  font-family: "lato";
+  color: #565656;
+}
+.work__4 p:nth-child(1) {
+  margin: 0;
+  font-family: "lato";
+  font-weight: 300;
+}
+.work__4 p:nth-child(2) {
+  margin: 0;
+  font-family: "lato";
+  font-size: 18px;
+  font-weight: 600;
+}
+.work__4 p:nth-child(3) {
+  margin: 24px 0 35px 0;
+  font-family: "lato";
+  color: #565656;
+}
+.education {
+  margin-bottom: 2rem;
+  padding: 3rem 0;
+}
+.education h2 {
+  margin-bottom: 2.5rem;
+}
+.education > div p:first-child {
+  font-family: "lato";
+  font-weight: 300;
+  margin: 0;
+}
+.education > div p:nth-child(2) {
+  font-family: "lato";
+  font-weight: 600;
+  margin: 2px 0 18px 0;
+}
+.education > div p:nth-child(3) {
+  font-family: "lato";
+  font-weight: 300;
+  margin-bottom: 3rem;
+}
+.education h2 {
+  font-family: "Oswald";
+  font-weight: 400;
+  font-size: 28px;
+}
+
+.education__1 {
+  width: calc(100% / 3.33);
+  display: inline-block;
+  vertical-align: middle;
+}
+.education__2 {
+  width: calc(100% / 3.33);
+  display: inline-block;
+  vertical-align: middle;
+}
+.education__3 {
+  overflow: hidden;
+  width: calc(100% / 3.33);
+  display: inline-block;
+  vertical-align: middle;
+}
+.language {
+  padding: 3rem 0;
+  margin-bottom: 2rem;
+}
+.language h2 {
+  font-family: "Oswald";
+  font-weight: 400;
+  font-size: 28px;
+}
+.language__levels {
+  font-family: "lato";
+}
+.language__1 {
+  display: inline-block;
+  width: calc(100% / 3.33);
+  color: #565656;
+  font-weight: 300;
+}
+.language__1 span {
+  font-weight: 700;
+  color: black;
+}
+.language__2 {
+  display: inline-block;
+  width: calc(100% / 3.33);
+  color: #565656;
+  font-weight: 300;
+}
+.language__2 span {
+  font-weight: 700;
+  color: black;
+}
+.language__3 {
+  display: inline-block;
+  width: calc(100% / 3.33);
+  color: #565656;
+  font-weight: 300;
+}
+.language__3 span {
+  font-weight: 700;
+  color: black;
+}
+.social {
+  padding: 3rem 0;
+  margin-bottom: 2rem;
+}
+.social h2 {
+  font-family: "Oswald";
+  font-weight: 400;
+  font-size: 28px;
+}
+.social__networks div {
+  display: inline-block;
+  width: calc(100% / 3.33);
+  font-family: "lato";
+}
+.social__networks i {
+  border: 1px solid #a6a6a6;
+  padding: 4px 3px;
+  border-radius: 50%;
+}
+.social__networks i:first-of-type {
+  border: 1px solid #a6a6a6;
+  padding: 3px 6px;
+  border-radius: 50%;
+}
+.social__networks p {
+  display: inline-block;
+  margin-left: 4px;
+}
+.contact {
+  padding: 3rem 0;
+  margin-bottom: 2rem;
+}
+
+.contact h2 {
+  font-family: "Oswald";
+  font-weight: 400;
+  font-size: 28px;
+}
+#email__input {
+  display: block;
+  background-color: #eeeeee;
+  border: none;
+  outline: none;
+  width: 100%;
+  height: 2.75rem;
+  margin-bottom: 1rem;
+  padding: 0.75rem 1rem;
+  font-family: "lato";
+}
+#text__input {
+  display: block;
+  background-color: #eeeeee;
+  border: none;
+  outline: none;
+  width: 100%;
+  height: 2.75rem;
+  margin-bottom: 1rem;
+  padding: 0.75rem 1rem;
+  font-family: "lato";
+}
+#textArea__input {
+  display: block;
+  background-color: #eeeeee;
+  border: none;
+  outline: none;
+  width: 100%;
+  margin-bottom: 1rem;
+  padding: 0.75rem 1rem;
+  font-family: "lato";
+}
+#submit__btn {
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 0.5rem 0.75rem;
+  margin-bottom: 2rem;
+  cursor: pointer;
+  font-family: "lato";
+}
+textarea {
+  resize: none;
+  font-family: "lato";
+  font-size: 0.9rem;
+}
+.footer {
+  padding: 1rem 0 4rem 0;
+  color: white;
+  text-align: center;
+  font-family: "lato";
+  font-weight: 500;
+}
+.footer p {
+  display: inline;
+}
